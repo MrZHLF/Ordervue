@@ -10,7 +10,11 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    ,
+    {
+      path: "Cashier",
+      name: "CashierLink",
+      component: Cashier
+    },
     {
       path: "/",
       name: "PosLink",
@@ -20,11 +24,6 @@ export default new Router({
       path: "Shop",
       name: "ShopLink",
       component: Shop
-    },
-    {
-      path: "Cashier",
-      name: "CashierLink",
-      component: Cashier
     },
     {
       path: "Member",

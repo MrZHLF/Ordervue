@@ -6,7 +6,9 @@
 ## 下载
 
 ``` bash
+从github中下载到自己的本地 git clone git@github.com:MrZHLF/Ordervue.git
 # 进入项目的目录之后
+先把文件中的node_modules删除，自己然后初始化
 npm install或者用cnpm install
 
 # serve with hot reload at localhost:8080
